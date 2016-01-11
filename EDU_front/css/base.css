@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+    padding:0;
+}
+
+/*--顶部主体--*/
+.head-body {
+    min-height: 240px;
+    width: 100%;
+    background-color: #66B3FF;
+    background-image: url("../images/head-body-background.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+}
+@media (min-width: 768px) {
+    .head-body {
+        padding-top: 65px;
+    }
+}
+.head-body h1>a {
+    color: #FFF;
+    margin: 0 10px;
+    padding: 20px 0 0;
+    font-size: 26px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑","宋体",Arial,Verdana,sans-serif;
+}
+.head-body h1>a:hover {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .head-body h1>a {
+        font-size: 34px;
+    }
+}
+.head-body-logo {
+    width:100px;
+    float:left;
+    margin-right:10px;
+}
+
+/*--顶部导航--*/
+.head-nav {
+    margin-top:80px;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+    .head-nav {
+        margin-top:80px;
+    }
+}
+.head-nav a {
+    margin-left: 0;
+    color: #fff;
+    transition: all 0.15s ease-in-out;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑","宋体",Arial,Verdana,sans-serif;
+    text-align:center;
+}
+.head-nav a:hover {
+    color:#fff;
+    background-color:rgba(0, 0, 0, 0.3) !important;
+}
+.head-nav .icon-bar{
+    background-color:#fff;
+}
+
